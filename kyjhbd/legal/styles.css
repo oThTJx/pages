@@ -120,32 +120,6 @@ ul {
   padding-left: 1.2rem;
 }
 
-.lang-switch {
-  display: flex;
-  gap: 0.5rem;
-  margin: 0 0 1.25rem;
-}
-
-.lang-switch button {
-  border: 1px solid var(--line);
-  background: #fff;
-  color: var(--muted);
-  border-radius: 999px;
-  padding: 0.35rem 0.85rem;
-  cursor: pointer;
-  font: inherit;
-}
-
-.lang-switch button.active {
-  border-color: var(--accent);
-  color: var(--accent);
-  background: #fff7ed;
-}
-
-.panel[hidden] {
-  display: none;
-}
-
 .home-list {
   list-style: none;
   padding: 0;
